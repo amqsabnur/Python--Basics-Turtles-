@@ -1,6 +1,7 @@
 #Fardous Sabnur
 
 #importing Turtle
+import turtle
 Jui = turtle.Turtle()
 
 #create a for loop
