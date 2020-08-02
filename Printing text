@@ -1,0 +1,6 @@
+#Fardous Sabnur
+
+#for loop
+
+for i in range (19):
+  print ("Mihi Cura Futuri")
