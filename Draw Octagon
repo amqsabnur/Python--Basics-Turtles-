@@ -1,0 +1,13 @@
+#Fardous Sabnur
+#this program will draw an octagon
+
+#importing a turtle module
+import turtle
+
+#giving the turtle a name
+zoro= turtle.Turtle()
+
+#repeat 8 times using for loop
+for i in range (8):
+    zoro.forward (75) #moving zoro forward 75 degrees
+    zoro.left (45) #turning zoro 45 degrees
