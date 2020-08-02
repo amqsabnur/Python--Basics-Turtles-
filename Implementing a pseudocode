@@ -1,0 +1,13 @@
+#Fardous Sabnur
+
+#importing Turtle
+Jui = turtle.Turtle()
+
+#create a for loop
+for i in range (100):
+  jui.forward(100)
+  jui.right(92)
+  jui.forward(10)
+  jui.right(92)
+  
+  
