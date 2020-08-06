@@ -1,0 +1,9 @@
+#fardous Sabnur
+
+    
+import turtle
+jui= turtle.Turtle()
+
+for i in range(0, 100, 10):     #range(start, Stop, Interval)
+    jui.forward(i)
+    jui.left(94)
