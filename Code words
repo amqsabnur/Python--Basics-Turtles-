@@ -1,0 +1,14 @@
+#Fardous Sabnur
+
+
+user_input = input("Enter a word:")
+codeword= ""
+
+
+for c in user_input:                      # for loop to loop through the users input
+     offset = (ord(c) - ord('a') +13)     #shift character by 13 characters
+     wrap = offset %26                    # use modulo to lget remainder 
+     char = chr(ord('a')+ wrap)           #add wrap to ord(a) to look only through the characters
+     codeword = codeword + char           #put all characters into codeword variable
+     
+print("Your codeword is: ", codeword)     #print codeword in one line
