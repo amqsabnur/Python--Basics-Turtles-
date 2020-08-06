@@ -1,0 +1,18 @@
+#Fardous Sabnur
+
+insulin= input("Enter insulin:")
+#First, we compute the length of the sequence.
+l= len(insulin)
+print("The length is", l)
+
+# Next, we count the number of 'C' and number of 'G'.
+lc= insulin.count ('C')
+lg= insulin.count ('G')
+
+#Next, we add the number of 'C' and number of 'G' together, and divide by the length.
+T= lc+lg
+
+#Then, we convert to a percentage by multiplying by 100 and print out the answer.
+p= T/l
+
+print("Percantage of GC content is:" p)
