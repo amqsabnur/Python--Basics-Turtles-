@@ -1,0 +1,9 @@
+#Fardous Sabnur
+
+
+mystring = input ("Enter Message Here: ") #ask for user input
+
+print (mystring)                          #print user input
+
+for c in mystring:                        #for loop that loops through each character in mystring
+    print (ord(c))                        #prints the ASCII code
