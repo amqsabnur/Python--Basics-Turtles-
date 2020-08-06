@@ -1,0 +1,6 @@
+#Fardous Sabnur
+
+user_input = input ("Enter Message Here: ") #ask for user input 
+print_input = print (user_input)            # print user input
+Upper_input = print(user_input.upper())     # print user input in uppercase letters
+Lower_input = print(user_input.lower())      # print user input in lowercase letters
