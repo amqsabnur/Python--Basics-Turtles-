@@ -1,0 +1,8 @@
+#Fardous Sabnur
+
+import turtle
+jui = turtle.Turtle()
+user_input =  input("Enter the HEX color: ")
+
+jui.shape("turtle")       #makes the shape of turtle a turtle
+jui.color(user_input)     #colors the turtle with users input color
