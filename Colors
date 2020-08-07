@@ -1,0 +1,12 @@
+#Fardous Sabnur
+#A program that uses multi-colored turtles
+
+import turtle
+
+azul = turtle.Turtle()
+azul.color(255)
+
+for i in range (0, 255, 10):
+    tess.forward(10)		#Move forward
+     tess.pensize(i)		#Set the drawing size to be i (larger each time)
+     tess.color(0,i,0)		#Set the red channel to be i (brighter each time)    
