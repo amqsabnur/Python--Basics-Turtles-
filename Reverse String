@@ -1,0 +1,9 @@
+#Fardous Sabnur
+
+user_input =  input("Enter a message here: ")
+
+print(user_input)
+
+for i in user_input[::-1]:  #prints string in reverse order
+    print (i)               #prints one word at a time
+    
