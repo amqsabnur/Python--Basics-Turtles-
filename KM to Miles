@@ -1,0 +1,8 @@
+#Fardous Sabnur
+
+
+kilometers = input("Insert number of kilometers: ")
+
+miles= 0.621371* float(kilometers)
+
+print ("Its", miles, "miles")
