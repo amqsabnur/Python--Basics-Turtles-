@@ -1,0 +1,7 @@
+#Fardous Sabnur
+user_input = input("Enter list of items seperated by spaces: ")
+number_of_words = user_input.count(" ") 
+print(number_of_words)
+
+words_plural = user_input.count("s ")
+print("plurals: ", words_plural/number_of_words)
