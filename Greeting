@@ -1,0 +1,11 @@
+
+x= int(input("Enter the hour of day: "))
+
+y = x%12
+
+if y<12:
+    print("Good Morning")
+elif y>=12:
+    print("Goof Afternoon")
+else:
+    print("Good Evening") 
