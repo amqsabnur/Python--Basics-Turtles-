@@ -1,0 +1,8 @@
+#Fardous Sabnur
+
+binString = input("Enter Binary string here: ")     #ask user to input a binary string
+decNum = 0                                          #declare the decimal number variable
+for c in binString:                                 
+    n =int(c)                                       #convert string to integer
+    decNum = 2 * decNum + n
+print (decNum)
