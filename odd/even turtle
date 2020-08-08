@@ -1,15 +1,1 @@
-#Fardous Sabnur
 
-import turtle
-jui = turtle.Turtle()
-user_input= int(input("Enter a whole number: "))
-
-for c in user_input:
-    if(c%2 == 0)
-        jui.color("blue")
-        jui.stamp()
-        jui.forward(100)
-    else
-       jui.color("red")
-       jui.forward(100)
-       jui.stamp()
