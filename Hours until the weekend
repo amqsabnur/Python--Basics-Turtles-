@@ -1,0 +1,7 @@
+#Fardous Sabnur
+
+hours= input("enter the hours until the weekend here: ")
+days = int(hours)//24         #Days left until the weekend
+print(days)                   
+leftover = int(hours) %24
+print(leftover)
