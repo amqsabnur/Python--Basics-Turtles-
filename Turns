@@ -1,0 +1,8 @@
+#Fardous Sabnur
+
+import turtle
+jui= tutler.Turtle()
+
+for c in [270, 100, 190, 200, 80]:
+    jui.left(c)
+    jui.forward(100)
